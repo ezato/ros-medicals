@@ -532,3 +532,38 @@
         padding-right: 5px !important;
     }
 }
+
+.icon-circle {
+    width: 55px;
+    height: 55px;
+    font-size: 24px;
+}
+
+.text-label {
+    font-size: 16px;
+}
+
+.text-heading {
+    font-size: 20px;
+}
+
+/* Responsive styles for smaller screens */
+@media (max-width: 576px) {
+    .icon-circle {
+        width: 40px;
+        height: 40px;
+        font-size: 18px; /* Smaller icon size */
+    }
+    
+    .text-label {
+        font-size: 12px; /* Smaller label font */
+    }
+    
+    .text-heading {
+        font-size: 16px; /* Smaller heading font */
+    }
+}
+
+.email-text {
+    word-break: break-word;
+}
